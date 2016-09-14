@@ -25,7 +25,7 @@ Also, if you want to change the resulting waveform file:
 ##Commands
 
 - Hit `make simulate` to simulate the codebase and run the testbench using Icarus Verilog.
-	- Testbench's output stream ($display, $monitor function outputs and also any error/log messages) directed to $TESTBENCHNAME_log.txt file to make later analysis more convenient.
+	- Testbench's output stream ($display, $monitor function outputs and also any error/log messages) is directed to $TESTBENCHNAME_log.txt file to make later analysis more convenient.
 
 - Hit `make lint` to trigger linting using Verilator.
 
@@ -46,7 +46,7 @@ Also, if you want to change the resulting waveform file:
 
 * **GTKWave**
 	- This application can be used to investigate .vcd waveform files. It was not very stable under OSX, so I moved on to other tool. Under Linux, this probably runs better.
-	- Run `brew install gtkwave` to install on OSX system.
+	- Run `brew install homebrew/gui/gtkwave` to install on OSX system.
 
 * **Scansion**
 	- This application is used to investigate .vcd waveform files. It is OSX only. It works much better (more stable) than gtkwave under OSX.
