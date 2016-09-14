@@ -1,6 +1,6 @@
 ##About
 
-One can say VHDL is second class citizen in open source software / hardware world. [IceStrom](http://www.clifford.at/icestorm) project only supports Verilog. Furthermore, easy to use and FOSS simulators like [Icarus Verilog](http://iverilog.icarus.com/) and [Verilator](http://www.veripool.org/wiki/verilator) also (in stable sense) only support Verilog.
+One can say VHDL is second class citizen in open source software / hardware world. For example, [IceStrom](http://www.clifford.at/icestorm) project only supports Verilog. Furthermore, easy to use and FOSS simulators like [Icarus Verilog](http://iverilog.icarus.com/) and [Verilator](http://www.veripool.org/wiki/verilator) also (in stable sense) only support Verilog.
 
 Here you can find a bare-bones, OSX based Verilog simulation toolchain that I created using several different tools. Everything should be working under Linux as well (expect [Scansion](http://www.logicpoet.com/scansion)) though I haven't tested yet.
 
@@ -56,9 +56,9 @@ Also, if you want to change the resulting waveform file:
 	- Sublime Text doesn't support Verilog language as valid syntax extension. You should install <https://packagecontrol.io/packages/Verilog> package from package manager to have basic syntax coloring and couple of extra features for Verilog inside Sublime Text.
 	- You can, of course, use any other text editor as well. :)
 
-##Tips for analog waveform insepction
+##Tips for analog waveform inspection
 
-Scansion and GTKWave supports visualising ports as analog waveforms. This feature is **very useful** in signal processing applications. Below you can see an example screenshot from *Scansion*:
+Scansion and GTKWave support visualising ports as analog waveforms. This feature is **very useful** in signal processing applications. Below you can see an example screenshot from *Scansion*:
 
 ![](./img/analog_waveform.png)
 
