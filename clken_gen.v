@@ -6,15 +6,18 @@
 // ----------------------------------------------------------------------------
 module clken_gen #(
   parameter DIV_RATIO = 16
-)(clk,rst,clken);
+)(
+  input clk,
+  input rst,
+  output clken
+);
 
 // ----------------------------------------------------------------------------
-output clken;
-input clk, rst;
+parameter WIDTH = $clog2(DIV_RATIO);
 
 // ----------------------------------------------------------------------------
 reg clken;
-reg [7:0] cnt; // TODO: Automatically infer 'cnt' bitwidth from DIV_RATIO value
+reg [(WIDTH-1):0] cnt;
 
 // ----------------------------------------------------------------------------
 always @(posedge clk) begin
