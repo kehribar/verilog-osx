@@ -1,10 +1,10 @@
-##About
+## About
 
-One can say VHDL is second class citizen in open source software / hardware world. For example, [IceStrom](http://www.clifford.at/icestorm) project only supports Verilog. Furthermore, easy to use and FOSS simulators like [Icarus Verilog](http://iverilog.icarus.com/) and [Verilator](http://www.veripool.org/wiki/verilator) also (in stable sense) only support Verilog.
+One can say VHDL is second class citizen in open source software / hardware world. For example, [IceStorm](http://www.clifford.at/icestorm) project only supports Verilog. Furthermore, easy to use and FOSS simulators like [Icarus Verilog](http://iverilog.icarus.com/) and [Verilator](http://www.veripool.org/wiki/verilator) also (in stable sense) only support Verilog.
 
 Here you can find a bare-bones, OSX based Verilog simulation toolchain that I created using several different tools. Everything should be working under Linux as well (expect [Scansion](http://www.logicpoet.com/scansion)) though I haven't tested yet.
 
-##Description
+## Description
 
 There are four different Verilog source files:
 
@@ -22,7 +22,7 @@ Also, if you want to change the resulting waveform file:
 
 * Modify `$dumpfile("top_tb.vcd");` line in the testbench code.
 
-##Commands
+## Commands
 
 - Hit `make simulate` to simulate the codebase and run the testbench using Icarus Verilog.
 	- Testbench's output stream ($display, $monitor function outputs and also any error/log messages) is directed to $TESTBENCHNAME_log.txt file to make later analysis more convenient.
@@ -35,7 +35,7 @@ Also, if you want to change the resulting waveform file:
 
 - Hit `make clean` to delete any generated files.
 
-##Prerequisites
+## Prerequisites
 
 * **Icarus Verilog**
 	- Run `brew install icarus-verilog` to install on OSX system.
@@ -56,7 +56,7 @@ Also, if you want to change the resulting waveform file:
 	- Sublime Text doesn't support Verilog language as valid syntax extension. You should install <https://packagecontrol.io/packages/Verilog> package from package manager to have basic syntax coloring and couple of extra features for Verilog inside Sublime Text.
 	- You can, of course, use any other text editor as well. :)
 
-##Tips for analog waveform inspection
+## Tips for analog waveform inspection
 
 Scansion and GTKWave support visualising ports as analog waveforms. This feature is **very useful** in signal processing applications. Below you can see an example screenshot from *Scansion*:
 
