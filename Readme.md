@@ -38,6 +38,11 @@ Also, if you want to change the resulting waveform file:
 
 ## Prerequisites
 
+You can use [Homebrew](https://brew.sh/) (brew) to install prerequisites. To install Homebrew run:
+```sh
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+```
+
 ### [Icarus Verilog](http://iverilog.icarus.com/)
 - Run `brew install icarus-verilog` to install on OSX system.
 
