@@ -12,7 +12,7 @@ There are four different Verilog source files:
 * `up_counter.v`: 8bit unsigned up counter with clock, reset and enable inputs.
 * `clken_gen.v`: Clock enable pulse generator module with clock and reset inputs. Division ratio is parameterised.
 * `top.v`: Main top module that instantiates an `up_counter` and a `clken_gen` module.
-* `top_tb.v`: Testbench module that instantiates the top module and feeds the neccessary test signals to the module.
+* `top_tb.v`: Testbench module that instantiates the top module and feeds the necessary test signals to the module.
 
 If you want to change the example structure, see the `Makefile` then:
 
