@@ -66,7 +66,7 @@ You can use [Homebrew](https://brew.sh/) (brew) to install prerequisites. To ins
 
 Scansion and GTKWave support visualising ports as analog waveforms. This feature is **very useful** in signal processing applications. Below you can see an example screenshot from *Scansion*:
 
-![](./img/analog_waveform.png)
+![](https://raw.githubusercontent.com/kehribar/verilog-osx/master/img/analog_waveform.png)
 
 Hit `⌘ + 2` to open `Trace Inspector` menu and select the desired signal. First, change the `Style` to **Analog** then adjust `Height Scaling` parameter to some high value to have bigger headroom in the display.
 
