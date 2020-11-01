@@ -3,7 +3,7 @@ Verilog OS X
 
 One can say VHDL is second class citizen in open source software / hardware world. For example, [IceStorm](http://www.clifford.at/icestorm) project only supports Verilog. Furthermore, easy to use and FOSS simulators like [Icarus Verilog](http://iverilog.icarus.com/) and [Verilator](http://www.veripool.org/wiki/verilator) also (in stable sense) only support Verilog.
 
-Here you can find a bare-bones, OSX based Verilog simulation toolchain that I created using several different tools. Everything should be working under Linux as well (expect [Scansion](http://www.logicpoet.com/scansion)) though I haven't tested yet.
+Here you can find a bare-bones, OSX based Verilog simulation toolchain that I created using several different tools. Everything should be working under Linux as well (except [Scansion](http://www.logicpoet.com/scansion)) though I haven't tested yet.
 
 ## Description
 
