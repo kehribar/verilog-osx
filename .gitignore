@@ -1,0 +1,13 @@
+# macOS garbage
+.DS_Store
+
+# simulation result
+*.vvp
+
+# waveforms
+*.vcd
+*.gtkw
+
+
+# log
+*_log.txt

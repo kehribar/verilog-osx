@@ -3,7 +3,7 @@ Verilog OS X
 
 One can say VHDL is second class citizen in open source software / hardware world. For example, [IceStorm](http://www.clifford.at/icestorm) project only supports Verilog. Furthermore, easy to use and FOSS simulators like [Icarus Verilog](http://iverilog.icarus.com/) and [Verilator](http://www.veripool.org/wiki/verilator) also (in stable sense) only support Verilog.
 
-Here you can find a bare-bones, OSX based Verilog simulation toolchain that I created using several different tools. Everything should be working under Linux as well (expect [Scansion](http://www.logicpoet.com/scansion)) though I haven't tested yet.
+Here you can find a bare-bones, OSX based Verilog simulation toolchain that I created using several different tools. Everything should be working under Linux as well (except [Scansion](http://www.logicpoet.com/scansion)) though I haven't tested yet.
 
 ## Description
 
@@ -66,7 +66,7 @@ You can use [Homebrew](https://brew.sh/) (brew) to install prerequisites. To ins
 
 Scansion and GTKWave support visualising ports as analog waveforms. This feature is **very useful** in signal processing applications. Below you can see an example screenshot from *Scansion*:
 
-![](./img/analog_waveform.png)
+![](https://raw.githubusercontent.com/kehribar/verilog-osx/master/img/analog_waveform.png)
 
 Hit `⌘ + 2` to open `Trace Inspector` menu and select the desired signal. First, change the `Style` to **Analog** then adjust `Height Scaling` parameter to some high value to have bigger headroom in the display.
 
